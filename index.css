@@ -1,0 +1,114 @@
+/* styles.css */
+.Abdelrazik:active,
+.Abdelrazik:hover,
+.Abdelrazik:focus{
+
+    border: 2px solid springgreen;
+    cursor: pointer;
+
+}
+.Abdelrazik{
+
+    margin-top: 5%;
+
+}
+
+
+.instagram{
+    color: crimson;
+    font-size: 1.30rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: -2%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.instagram:hover{
+    color: #000000;
+}
+
+hr{
+    width: 150px;
+    height: 1px;
+    background-color: darkmagenta;
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    color: #000000; /* لون النص */
+    /* background-color: #fff; */
+    background-image: url(./cba.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ok{
+    color: rgb(83, 51, 29);
+    text-decoration: none;
+    text-align: center;
+}
+
+#profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: non;
+    align-items: center;
+}
+
+h1, h2{
+    color: #000000; /* لون النص */
+    font-size: 1.35rem;
+    line-height: 1.6;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-size: 1.30rem;
+    line-height: 1.6;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: crimson;
+    text-align: center;
+}
+
+
+span{
+    color: #000000;
+    text-align: center;
+}
+
+#social-media-links {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 2;
+    text-align: center;
+}
+#social-media-links a:hover,
+#social-media-links a:focus,
+#social-media-links a:active{
+    color: crimson; /* تغيير لون الروابط عندما يتم التحويل فوقها */
+}
+
+#social-media-links a {
+    text-decoration: none;
+    color: #000000; /* لون الروابط */
+    text-align: center;
+    margin: 0 10px;
+}
+
+#social-media-links i {
+    font-size: 24px; /* حجم الأيقونات */
+    margin: 0 10px;
+    text-align: center;
+}
